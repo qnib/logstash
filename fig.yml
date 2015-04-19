@@ -1,0 +1,4 @@
+logstash:
+    build: docker/.
+    volumes:
+    - .:/logstash/
